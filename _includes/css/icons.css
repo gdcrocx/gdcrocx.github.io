@@ -30,3 +30,9 @@
 .icon-behance:before     { content: "\e607"; }
 .icon-soundcloud:before  { content: "\e606"; }
 .icon-vine:before        { content: "\e60a"; }
+
+.error-404 {
+  display: block;
+  max-width: 30%;
+  max-height: 40%; 
+}
