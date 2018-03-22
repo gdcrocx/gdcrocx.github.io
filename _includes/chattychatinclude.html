@@ -2,9 +2,15 @@
 
 <ul>    
     {% for blog in site.categories.chattychat %}
-    <li>
-        <a href="{{site.baseUrl}}{{blog.url}}">{{blog.title}}</a>
-        <p>{{blog.meta}}</p>   
-    </li>
+
+        {% unless blog.status contains "draft" %}
+
+            <li>
+                <a href="{{site.baseUrl}}{{blog.url}}">{{blog.title}}</a>
+                <p>{{blog.meta}}</p>   
+            </li>
+        
+        {% endunless %}
+
     {% endfor %}
 </ul>
