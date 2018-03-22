@@ -15,7 +15,7 @@
 }
 
 .testimony {
-    display: none;    
+    display: none;     
 }
 
 .active-testimony {
@@ -42,19 +42,19 @@
 .testimonial-control-next {
     position: absolute;
     display: inline;         
-    top: -270px;
+    top: -220px;
     left: 90%;
     right: 0;
-    bottom: 0;   
+    bottom: 0;    
 }
 
 .testimonial-control-prev {
     position: absolute;
     display: inline;          
-    top: -270px;
+    top: -220px;
     left: 0;
     right: 10%;
-    bottom: 0;     
+    bottom: 0;
 }
 
 .testimonial-control-next #Layer_1 {

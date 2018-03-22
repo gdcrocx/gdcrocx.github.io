@@ -9,3 +9,8 @@ section ul li {
 p.post-header {
     color: #FFF;
 }
+
+.post-footer {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
