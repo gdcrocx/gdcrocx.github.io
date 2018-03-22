@@ -14,7 +14,6 @@
         "designation": "IBU Head - Testing-01",
         "workplace": "TechMahindra",
         "date": "FY 15/16 Q1"
-
     },
     {
         "citation": "George is very committed, hard working and provided excellent support to the ECloud project, both in development and testing. He could pick up any new language/technology with ease. Now he is providing excellent support to the new Cloud modernization project. All the very best, george and keep up the good work!",
@@ -23,7 +22,6 @@
         "designation": "IBU Head - Product Engineering",
         "workplace": "TechMahindra",
         "date": "FY 15/16 Q4"
-
     },
     {
         "citation": "Tech Mahindra applauds you for consistently challenging yourself and performing brilliantly. Keep up the passion. We are proud of you!",
@@ -40,7 +38,6 @@
         "designation": "",
         "workplace": "TechMahindra",
         "date": "April 2014"
-
     },
     {
         "citation": "Recognized as 'Star' and 'Excellent' Performer - 2015 & 2016",
@@ -49,6 +46,21 @@
         "designation": "",
         "workplace": "TechMahindra",
         "date": "2015 & 2016"
-
+    },
+    {
+        "citation": "For commitment to outstanding performance and demonstrating Core Values and going far above and beyond! in Quality/Process Improvement.",
+        "recognition": "**Verizon Spotlight Award**",
+        "jury": "Product Delivery & Management",
+        "designation": "Senior Delivery Head (VDSI)",
+        "workplace": "Verizon Data Services India Pvt. Ltd.",
+        "date": "July 2017"
+    },
+    {
+        "citation": "Congratulations on your 6th place finish (out of 223 teams) in the 2017 DevOps Cup! Your dedication to excelllence is helping lead the way for a better tomorrow in Verizon's DevOps Community! Thanks you for your tremenderous work during the Cup this year, and we look forward to your leadership and mentoring in the 2018 DevOps Cup!",
+        "recognition": "**Verizon Spotlight Award**",
+        "jury": "DevOps Cup 3.0 (2017)",
+        "designation": "SVP & CTO at Verizon",
+        "workplace": "Verizon Data Services India Pvt. Ltd.",
+        "date": "December 2017"
     }
 ]
