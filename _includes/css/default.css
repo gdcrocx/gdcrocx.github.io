@@ -52,10 +52,10 @@ a {
 
 ::-moz-selection { /* Code for Firefox */
     color: #000;
-    background: transparent;
+    background: #FFF;
 }
 
 ::selection {
     color: #000; 
-    background: transparent;
+    background: #FFF;
 }
