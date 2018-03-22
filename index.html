@@ -17,10 +17,10 @@ keywords: George Davis, Self Bio, professional blog, personal content, contact i
 
 <div class="nav-col">
     <span class="post-header">Recently Published</span>
-    {% for post in site.posts limit: 5%}
+    {% for post in site.posts limit: 10 %}
         {% assign postTimestamp = post.date | date: '%s' %}
         {% assign nowTimestamp = 'now' | date: '%s' %}
-        {% if postTimestamp <= nowTimestamp %}
+        {% if postTimestamp <= nowTimestamp and post.status contains "published" %}
             <p><a href="{{site.domainUrl}}{{site.baseUrl}}{{post.url}}">{{post.title}}</a></p>
         {% endif %}
     {% endfor %}
