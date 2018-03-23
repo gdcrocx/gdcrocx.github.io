@@ -3,8 +3,9 @@
         <ul class="nav">        
             <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.baseUrl}}/">Gdcrocx</a></li>
             <li class="{% if page.url == '/blogs/' or page.url == '/cloudhaven/' or page.url == '/chattychat/' %}active{% endif %}"><a href="{{site.baseUrl}}/blogs/">Blog</a> </li>
-            <li class="{% if page.url == '/me/' %}active{% endif %}"><a href="{{site.baseUrl}}/me/">Bio</a></li>
+            <li class="{% if page.url == '/my-projects/' %}active{% endif %}"><a href="{{site.baseUrl}}/my-projects/">My Projects</a></li>
             <li class="{% if page.url == '/testimonials/' %}active{% endif %}"><a href="{{site.baseUrl}}/testimonials/">Testimonials</a></li>
+            <li class="{% if page.url == '/me/' %}active{% endif %}"><a href="{{site.baseUrl}}/me/">Bio</a></li>
         </ul>
     </nav>
 </header>

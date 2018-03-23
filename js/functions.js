@@ -72,4 +72,46 @@ function clientStuff() {
 
   });
 
+  $('.project').first().addClass('active-project')
+
+  $('.project-control-next, .project-control-prev').click(function() {
+		
+    var $this = $(this),
+        curActiveproject = $('.projects').find('.active-project'),
+        position = $('.projects').children().index(curActiveproject),
+        projectNum = $('.project').length;
+
+      if($this.hasClass('project-control-next'))
+	  {
+
+        if(position < projectNum -1)
+		{
+          $('.active-project').removeClass('active-project').next().addClass('active-project');
+        } 
+		else 
+		{
+          $('.project').removeClass('active-project').first().addClass('active-project');
+        //   $('.project-logo').removeClass('active-project').first().addClass('active-project');
+        //   $('.project-button').removeClass('active-project').first().addClass('active-project');
+        }
+
+      } 
+	  else
+	  {
+
+        if (position === 0)
+		{
+          $('.project').removeClass('active-project').last().addClass('active-project');
+        //   $('.project-logo').removeClass('active-project').last().addClass('active-project');
+        //   $('.project-button').removeClass('active-project').last().addClass('active-project');
+		} 
+		else 
+		{
+          $('.active-project').removeClass('active-project').prev().addClass('active-project');
+        }
+
+      }
+
+  });
+
 }

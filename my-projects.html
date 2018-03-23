@@ -1,0 +1,38 @@
+---
+layout: default
+title: "My Projects"
+meta: Project work of George Davis outside work. These projects represent the work abilities that George possesses.
+priority: 1.0
+changefreq: monthly
+category: pages
+keywords: projects, work, multi-platform, professional, android, ios, developer, test, parkingApp, Gladiator, MemeWorld, CoinWatch, CatchACoin, MobiErgo, OneCard
+---
+
+<div class="projects-accordian">
+
+    <div class="projects">
+
+        {% for project in site.data.my-projects %}
+
+        <div class="project center">
+            {% if project.project-name %}<p>{{ project.project-name | markdownify }}</p>{% endif %}
+            {% if project.project-description %}<p><i>{{ project.project-description }}</i></p>{% endif %}
+            {% if project.project-platform %}<p><i>{{ project.project-platform | markdownify }}</i></p>{% endif %}
+            {% if project.project-purpose %}<p><i>{{ project.project-purpose | markdownify }}</i></p>{% endif %}
+            {% if project.project-inspiration %}<p><i>{{ project.project-inspiration | markdownify }}</i></p>{% endif %}
+            {% if project.project-benefit %}<p><i>{{ project.project-benefit | markdownify }}</i></p>{% endif %}
+            {% if project.project-referral-url %}<p><i>{{ project.project-referral-url | markdownify }}</i></p>{% endif %}
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+<div class="project-controls">
+    
+    <div class="project-control-prev">{% include icons/icon-prev.html %}</div>
+    <div class="project-control-next">{% include icons/icon-next.html %}</div>
+    
+</div>

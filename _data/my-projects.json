@@ -1,0 +1,62 @@
+[
+    {
+        "project-name": "**parkingApp**",
+        "project-description": "The app was designed as a Proof of Concpet for an open, crowdsourced parking availability data collection and recommendation model. The app used GPS and 4G LTE Mobile Data to mark locations and store them on a Cloud Service. Parking App was submitted as a course study and project work for his Master's Degree in Computer Science specialized on Free and Open Source Software",
+        "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
+        "project-purpose": "**Purpose** - To offer congestion free roads and reliable parking to various cities through a crowdsourced model ",
+        "project-inspiration": "**Inspiration** - Personal experience of the clutter near shopping malls and movie theatres",
+        "project-benefit": "**Benefits** - Personally, my first opensource, crowdsourced, multi-platform, environment friendly app",
+        "project-referral-url": "**Project Status** - It is in a private repository. Drop a note for an app preview.",
+        "project-tools": "**Tools and Technology** - MVC framework, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
+    },
+    {
+        "project-name": "**Gladiator**",
+        "project-description": "The app was developed as a prototype to a South African based truck service provider. The app design and development was done based on design specifications and was forked out of the Parking App base code. The app was not submitted to the Client due to change in plans at the Client's end.",
+        "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
+        "project-purpose": "**Purpose** - To increase the efficiency of transport trucks carrying load by optimizing routes and create freight visibility to truckers thereby reducing overall transportation costs and a shared freight model",
+        "project-inspiration": "**Inspiration** - Taxi services of Uber, Ola around that time",
+        "project-benefit": "**Benefits** - Platform for truck drivers and consignment visibility, bringing commission based revenue to the Client",
+        "project-referral-url": "**Project Status** - It is in a private repository. Drop a note for an app preview.",
+        "project-tools": "**Tools and Technology** - MVC framework, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
+    },
+    {
+        "project-name": "**MemeWorld**",
+        "project-description": "MemeWorld was a simple meme app with features to share, search and even create memes on the fly. The app intends to reduce the storage issues caused in consumer devices, requiring consumers to get bigger and better phones every few years. The goal was to have a platform for memes on the server level with layers of caching and CDNs",
+        "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
+        "project-purpose": "**Purpose** - To reduce the data storage on consumer devices and provide ease of content access and storage on the Cloud",
+        "project-inspiration": "**Inspiration** - Personal experience with media downloading apps like WhatsApp",
+        "project-benefit": "**Benefits** - Clutter free devices and Happy consumers",
+        "project-referral-url": "**Project Status** - It is in a private repository. Drop a note for an app preview.",
+        "project-tools": "**Tools and Technology** - MVC framework, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
+    },
+    {
+        "project-name": "**CatchACoin**",
+        "project-description": "The Cryptocurrency world is buzzing non-stop since 2008 and there are only few people who can keep tabs on this space at any given time. CatchACoin was developed to create a user assistant to keep track of user portfolio and show alerts on fast paced trends and warn declines for various crypto assests like Bitcoin, Ether, Ripple and so on",
+        "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
+        "project-purpose": "**Purpose** - To enable users to make timely decisions based on personalized settings and real-time market trends",
+        "project-inspiration": "**Inspiration** - Necessity is the mother of invention",
+        "project-benefit": "**Benefits** - Have a safer world where digital currency would be in everyone's pocket and would be beneficial for the digital economy overall",
+        "project-referral-url": "**Project Status** - It is in a private repository. Drop a note for an app preview.",
+        "project-tools": "**Tools and Technology** - MVC framework, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
+    },
+    {
+        "project-name": "**MobiErgo**",
+        "project-description": "An ergonomic solution to Mobile phone users, giving recommendation and alerts on the ergonomic factor in play on the neck of users. The app intends to use accelerometer and orientation to guess the position of the phone and provide alerts in terms of vibration and toast notifications.",
+        "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
+        "project-purpose": "**Purpose** - To maintain better ergonomics for our users while using their phone",
+        "project-inspiration": "**Inspiration** - Health conscious geeks",
+        "project-benefit": "**Benefits** - New healthy habits, better healthy life",
+        "project-referral-url": "**Project Status** - It is in a private repository. Drop a note for an app preview.",
+        "project-tools": "**Tools and Technology** - MVC framework, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
+    },
+    {
+        "project-name": "**OneCard**",
+        "project-description": "Create a prototype of a cryptocurrency card that links multiple cryptocurrency wallets to make transactions between different cryptos easy and effective in small and large value transactions.",
+        "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
+        "project-purpose": "**Purpose** - OneCard would solve a cool crypto handling problem to help consumers run easy with their cryptos",
+        "project-inspiration": "**Inspiration** - The Crypto-currency math problem for small change and big transaction small discounts, even handle loyalty points",
+        "project-benefit": "**Benefits** - Improve the adoption of cryptocurrency in the market and make transactions easy for new adopters and daily use",
+        "project-referral-url": "**Project Status** - It is in a private repository. Drop a note for an app preview.",
+        "project-tools": "**Tools and Technology** - MVC framework, React-Redux, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
+    }
+]

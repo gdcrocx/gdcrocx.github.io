@@ -8,6 +8,7 @@
 {% include css/pages.css %}
 {% include css/bio.css %}
 {% include css/testimonials.css %}
+{% include css/my-projects.css %}
 {% include css/icons.css %}
 {% include css/footer.css %}
 {% include css/responsive.css %}
