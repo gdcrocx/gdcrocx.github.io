@@ -9,6 +9,12 @@
     {% if page.meta %}<meta name="description" content="{{page.meta}}">{% endif %}
     <meta name="google-site-verification" content="CWDLFr406ro2_GNdRc0Hu5g6TJfAhXXd6TnNVwn6x8g" />
     <meta name="google-site-verification" content="NIp1NFr1zactZRc9_FBkXTyPdGhKkGLEB6tcJBzjUdk" />
+    <!-- Apache Cordova Whitelist Good default declaration:
+        * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+        * Enable inline JS: add 'unsafe-inline' to default-src
+        * Enable eval(): add 'unsafe-eval' to default-src
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; media-src 'self'">
 </head>
 
 <body>
