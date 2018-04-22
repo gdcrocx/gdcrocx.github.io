@@ -1,6 +1,5 @@
 <footer>   
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="/js/functions.js"></script>
+        
         <hr>
         
         <!--{% include copyContent.html copyClass='copyContent-bottom' %}    -->
@@ -13,7 +12,7 @@
 
         {% unless page.url contains "/me/" %}
 
-                {% include socialLinks.html %}
+                {% include socialLinks.html class="footerClickLinks" %}
 
         {% endunless %}
         
