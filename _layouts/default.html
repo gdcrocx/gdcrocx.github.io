@@ -1,56 +1,75 @@
 <!DOCTYPE html>
-<html lang="en-IN">
+<html amp lang="en-IN">
+    <head>
+        <meta charset="utf-8">
+        <!-- AMP Initialization Settings -->
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+        <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>        
+        <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <link rel="canonical" href="{{site.domainUrl}}{{site.baseurl}}{{page.url}}">
+        <!-- Site Info -->
+        <title>{% if page.title %}{{page.title}} - {% endif %}Gdcrocx</title>        
+        <!-- <link href="{{site.baseUrl}}/css/main.css" rel="stylesheet"> -->
+        <style amp-custom>                                 
+            {% include css/default.css %}
+            {% include css/siteNav.css %}
+            {% include css/copyContent.css %}
+            {% include css/posts.css %}
+            {% include css/pages.css %}
+            {% include css/bio.css %}
+            {% include css/testimonials.css %}
+            {% include css/my-projects.css %}
+            {% include css/icons.css %}
+            /* Error 404 Page CSS */
+            {% include css/error-404.css %}
+            {% include css/footer.css %}
+            /* Site Layout and Responsiveness */
+            {% include css/responsive.css %}
+        </style>
+        {% if page.meta %}<meta name="description" content="{{page.meta}}">{% endif %}
+        <meta name="google-site-verification" content="CWDLFr406ro2_GNdRc0Hu5g6TJfAhXXd6TnNVwn6x8g" />
+        <meta name="google-site-verification" content="NIp1NFr1zactZRc9_FBkXTyPdGhKkGLEB6tcJBzjUdk" />
+        <meta name="msvalidate.01" content="EC4CAD725BA82EE2CC0852F19B515962" />
+        <!-- Apache Cordova Whitelist Good default declaration:
+            * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+            * Enable inline JS: add 'unsafe-inline' to default-src
+            * Enable eval(): add 'unsafe-eval' to default-src
+        -->
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; media-src 'self'"> -->
+    </head>
+    <body>
 
-<head>
-    <meta charset="utf-8">
-    <title>{% if page.title %}{{page.title}} - {% endif %}Gdcrocx</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{site.baseUrl}}/css/main.css" rel="stylesheet">
-    {% if page.meta %}<meta name="description" content="{{page.meta}}">{% endif %}
-    <meta name="google-site-verification" content="CWDLFr406ro2_GNdRc0Hu5g6TJfAhXXd6TnNVwn6x8g" />
-    <meta name="google-site-verification" content="NIp1NFr1zactZRc9_FBkXTyPdGhKkGLEB6tcJBzjUdk" />
-    <meta name="msvalidate.01" content="EC4CAD725BA82EE2CC0852F19B515962" />
-    <!-- Apache Cordova Whitelist Good default declaration:
-        * Disables use of eval() and inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-        * Enable inline JS: add 'unsafe-inline' to default-src
-        * Enable eval(): add 'unsafe-eval' to default-src
-    -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; media-src 'self'">
-</head>
+        {% include siteNav.html %}
 
-<body>
+        {{content}}
 
-    {% include siteNav.html %}
+        {% include footer.html %}
 
-    {{content}}
-
-    {% include footer.html %}
-
-    {% if page.url == '/' %}
-    <!-- Home Page -->
-    <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "name": "George Davis C",
-        "headline":"{{ page.title }}",
-        "genre":"{{ page.category }}",
-        "keywords": "{{page.keywords}}", 
-        "url": "{{site.domainUrl}}",
-        "inLanguage": "en",
-        "isFamilyFriendly": "True",
-        "datePublished":"{{ page.date | date: '%Y-%m-%d' }}",
-        "url": "{{site.domainUrl}}",
-        "keywords": "{{page.keywords}}",
-        {% include schema/author.html %}
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{site.domainUrl}}"
-        }
-    }
-    </script>
-    {% endif %}
-
-</body>
-
+        {% if page.url == '/' %}
+            <!-- Home Page -->
+            <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "name": "George Davis C",
+                "headline":"{{ page.title }}",
+                "genre":"{{ page.category }}",
+                "keywords": "{{page.keywords}}", 
+                "url": "{{site.domainUrl}}",
+                "inLanguage": "en",
+                "isFamilyFriendly": "True",
+                "datePublished":"{{ page.date | date: '%Y-%m-%d' }}",
+                "url": "{{site.domainUrl}}",
+                "keywords": "{{page.keywords}}",
+                {% include schema/author.html %}
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "{{site.domainUrl}}"
+                }
+            }
+            </script>
+        {% endif %}
+    </body>
 </html>

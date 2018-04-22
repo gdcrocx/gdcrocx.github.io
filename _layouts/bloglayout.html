@@ -6,7 +6,17 @@ layout: default
 
 {% include blogNav.html %}
 
-<p class="post-header" {%if page.category %} style="color: #000;" {% endif %}>My Blogs {%if page.category %} - {{page.category}} {% endif %}</p>
+{%if page.category %}
+
+    <p class="post-header post-header-text-black">My Blogs - {{page.category | capitalize}}</p>
+
+{% endif %}
+
+{% unless page.category %}
+
+    <p class="post-header">My Blogs - </p>
+
+{% endunless %}
 
 {{content}}
 
