@@ -14,3 +14,7 @@ p.post-header {
     font-size: 0.75rem;
     line-height: 1rem;
 }
+
+p.post-header-text-black {
+    color: #000;
+}

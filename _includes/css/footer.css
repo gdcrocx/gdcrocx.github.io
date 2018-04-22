@@ -10,15 +10,23 @@ footer span, footer p {
 
 .social-links a {
     display: inline-block;
-    padding: 0.2rem 0.3rem;    
+    padding: 0.2rem 0.3rem;
 }
 
-.clickLinks a {
-    font-size: 2rem;
+.clickLinks a {    
     padding: 2rem;
     margin: 1rem;
-    border: 2px solid #FFF;
-    border-radius: 25%;
+    width: 64px;
+    height: 64px;
+    /* border: 2px solid #FFF; */
+    /* border-radius: 50%; */
+}
+
+.footerClickLinks a {
+    display: inline-block;
+    padding: 0.2rem 0.3rem;  
+    width: 25px;
+    height: 25px;
 }
 
 .copy-left {

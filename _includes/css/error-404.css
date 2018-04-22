@@ -1,0 +1,30 @@
+.cls-1, .cls-4 {
+    
+    fill: #aeffae;
+    opacity: 0.5;
+}
+/* fill: #d24b49; */
+
+.cls-1,
+.cls-2,
+.cls-3 {
+    fill-rule: evenodd;
+}
+
+.cls-2 {
+    fill: #fff;
+    opacity: 0;
+}
+
+.cls-3 {
+        /* fill: #fcded9;  */
+        fill: #d24b49;
+    /* fill: #aeffff; */
+    opacity: 0.5;
+}
+
+.error-404 {
+    display: block;
+    max-width: 30%;
+    max-height: 40%; 
+}
