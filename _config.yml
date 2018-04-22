@@ -3,3 +3,6 @@ domainUrl: "http://www.georgedavis.co"
 baseUrl: ""
 exclude: ['README.md']
 permalink: pretty
+
+#Hosting settings
+port: 80
