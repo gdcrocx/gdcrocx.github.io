@@ -2,8 +2,35 @@
 
         {% for link in site.data.settings %}
 
-                <a href="{{ link.link }}" class="icon-{{ link.title }} social-link-icon"></a>
+                <a href="{{ link.link }}" data-vars-outbound-link="{{ link.link }}" class="icon-{{ link.title }} social-link-icon" id="{{ link.selector }}"></a>
 
         {% endfor %}
+
+        <amp-analytics type="googleanalytics">
+                <script type="application/json">
+                {
+                        "vars": {
+                                "account": "UA-119969619-1"
+                        },
+                        "triggers": {
+                                {% for link in site.data.settings %}
+                                        "{{ link.trackingTrigger }}" : {
+                                                "on": "click",
+                                                "selector": "{{ link.selector }}",
+                                                "request": "{{ link.request }}",
+                                                "vars": {
+                                                        "socialNetwork": "{{ link.title }}",
+                                                        "socialAction": "{{ link.action }}",
+                                                        "socialTarget": "{{ link.link }}"
+                                                }
+                                        }
+                                        {% if forloop.index != site.data.settings.size %}
+                                        ,
+                                        {% endif %}
+                                {% endfor %}  
+                        }
+                }
+                </script>
+        </amp-analytics>
         
 </div>

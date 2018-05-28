@@ -1,24 +1,44 @@
 [
     {
         "title": "googleplus",
-        "link": "https://plus.google.com/+GeorgeDavisGdcrocx"
-    },
+        "link": "https://plus.google.com/+GeorgeDavisGdcrocx",
+        "action": "pageVisit",
+        "selector": "#googleplus",
+        "request": "social",
+        "trackingTrigger": "trackClickOnGooglePlusLink"
+    },    
     {
         "title": "facebook",
-        "link": "https://www.facebook.com/GDCrocx" 
-
+        "link": "https://www.facebook.com/GDCrocx" ,
+        "action": "pageVisit",
+        "selector": "#facebook",
+        "request": "social",
+        "trackingTrigger": "trackClickOnFacebookLink"
+        
     },
     {
         "title": "linkedin",
-        "link": "https://www.linkedin.com/in/george-davis-c-0a042563/"
-    },
+        "link": "https://www.linkedin.com/in/george-davis-c-0a042563/",
+        "action": "pageVisit",
+        "selector": "#linkedin",
+        "request": "social",
+        "trackingTrigger": "trackClickOnLinkedinLink"
+    },    
     {
         "title": "github",
-        "link": "https://github.com/gdcrocx" 
-
+        "link": "https://github.com/gdcrocx" ,
+        "action": "pageVisit",
+        "selector": "#github",
+        "request": "social",
+        "trackingTrigger": "trackClickOnGitHubLink"
+        
     },
     {
         "title": "twitter",
-        "link": "https://twitter.com/GDCrocx"
-    }
+        "link": "https://twitter.com/GDCrocx",
+        "action": "pageVisit",
+        "selector": "#twitter",
+        "request": "social",
+        "trackingTrigger": "trackClickOnTwitterLink"
+    } 
 ]
