@@ -18,3 +18,8 @@ p.post-header {
 p.post-header-text-black {
     color: #000;
 }
+
+.social-icons {
+    border-radius: 100px;    
+    background-color: #000;
+}
