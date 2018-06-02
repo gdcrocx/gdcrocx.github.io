@@ -1,0 +1,99 @@
+[
+    {
+        "title": "OS Native Share",
+        "type": "system",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-text": "SAMPLE TEXT",        
+        "enabled": "true"
+    },
+    {
+        "title": "Email",
+        "type": "email",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-subject": "SAMPLE TEXT",
+        "data-param-body": "",
+        "data-param-recipient": "",        
+        "enabled": "true"
+    },
+    {
+        "title": "Facebook",
+        "type": "facebook",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-app_id": "<facebook-app-id>",
+        "data-param-href": "",
+        "data-param-quote": "",
+        "enabled": "true"
+    },
+    {
+        "title": "LinkedIn",
+        "type": "linkedin",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-url": "SAMPLE TEXT",
+        "enabled": "true"
+    },
+    {
+        "title": "Pinterest",
+        "type": "pinterest",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-media": "SAMPLE TEXT",
+        "data-param-url": "",
+        "data-param-description": "",             
+        "enabled": "false"
+    },
+    {
+        "title": "Google Plus",
+        "type": "gplus",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-url": "",        
+        "enabled": "true"
+    },
+    {
+        "title": "Tumblr",
+        "type": "tumblr",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-url": "SAMPLE TEXT",
+        "data-param-text": "",        
+        "enabled": "false"
+    },
+    {
+        "title": "Twitter",
+        "type": "twitter",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-url": "SAMPLE TEXT",
+        "data-param-text": "",           
+        "enabled": "true"
+    },
+    {
+        "title": "WhatsApp",
+        "type": "whatsapp",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-text": "SAMPLE TEXT",
+        "enabled": "true"
+    },
+    {
+        "title": "LINE",
+        "type": "line",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-url": "SAMPLE TEXT",
+        "data-param-text": "",            
+        "enabled": "false"
+    },
+    {
+        "title": "SMS",
+        "type": "sms",
+        "endpoint": "",
+        "endpointPreconfigured": "true",
+        "data-param-body": "SAMPLE TEXT",           
+        "enabled": "true"        
+    }
+]

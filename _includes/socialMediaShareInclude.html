@@ -1,0 +1,55 @@
+{% for shareEndpoint in site.data.social-media-share %}
+
+    {% if shareEndpoint.enabled == "true" %} 
+    
+        <amp-social-share class="social-icons" width="25px" height="25px" title="{{shareEndpoint.title}}" type="{{shareEndpoint.type}}"
+        
+            {% if shareEndpoint.endpointPreconfigured != "true" %}
+                data-share-endpoint="{{shareEndpoint.endpoint}}"                 
+            {% endif %}
+
+            {% if shareEndpoint.data-param-text %}
+                data-param-text="{{page.meta}}"
+            {% endif %} 
+
+            {% if shareEndpoint.data-param-subject %}
+                data-param-subject="{{page.title}} - {{page.author}}"
+            {% endif %} 
+
+            {% if shareEndpoint.data-param-body %}
+                data-param-body="{{page.meta}} - {{site.domainUrl}}{{site.baseurl}}{{include.entry.url}}"
+            {% endif %} 
+
+            {% if shareEndpoint.data-param-recipient %}
+                data-param-recipient=""
+            {% endif %}
+
+            {% if shareEndpoint.data-param-app_id %}
+                data-param-app_id="{{shareEndpoint.data-param-app_id}}"
+            {% endif %} 
+
+            {% if shareEndpoint.data-param-href %}
+                data-param-href="{{site.domainUrl}}{{site.baseurl}}{{include.entry.url}}"
+            {% endif %} 
+
+            {% if shareEndpoint.data-param-quote %}
+                data-param-quote="{{page.meta}} - {{page.author}}"
+            {% endif %} 
+
+            {% if shareEndpoint.data-param-url %}
+                data-param-url="{{site.domainUrl}}{{site.baseurl}}{{include.entry.url}}"
+            {% endif %}
+
+            {% if shareEndpoint.data-param-media %}
+                data-param-media="{{shareEndpoint.data-param-media}}"
+            {% endif %} 
+
+            {% if shareEndpoint.data-param-description %}
+                data-param-description="{{page.meta}}"
+            {% endif %}
+
+        ></amp-social-share>
+
+    {% endif %}
+
+{% endfor %}
