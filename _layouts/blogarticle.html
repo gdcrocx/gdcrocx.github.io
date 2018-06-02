@@ -2,7 +2,11 @@
 layout: bloglayout
 ---
 
-<p class="post-header">{{page.title}}</p>
+<p class="post-header">{{page.title}}
+    
+    {% include socialMediaShareInclude.html entry=page %}
+    
+</p>
 
 {{content}}
 
