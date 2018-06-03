@@ -4,5 +4,7 @@ baseUrl: ""
 exclude: ['README.md']
 permalink: pretty
 
+twitter_username: GDCrocx
+
 #Hosting settings
 port: 80
