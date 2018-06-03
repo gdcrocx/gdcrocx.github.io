@@ -8,8 +8,16 @@
                 data-share-endpoint="{{shareEndpoint.endpoint}}"                 
             {% endif %}
 
-            {% if shareEndpoint.data-param-text %}
-                data-param-text="{{page.meta}}"
+            {% if shareEndpoint.data-param-text %}            
+                {% if shareEndpoint.type == "whatsapp" %}
+                    data-param-text="{{page.meta}} {{site.domainUrl}}{{site.baseurl}}{{page.url}}"
+                {% endif %}
+                {% if shareEndpoint.type == "twitter" %}
+                    data-param-text="{{page.meta}} @{{site.twitter_username}}"
+                {% endif %}
+                {% unless shareEndpoint.type == "whatsapp" or "twitter" %}
+                    data-param-text="{{page.meta}}"
+                {% endunless %}
             {% endif %} 
 
             {% if shareEndpoint.data-param-subject %}

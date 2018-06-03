@@ -23,3 +23,7 @@ p.post-header-text-black {
     border-radius: 100px;    
     background-color: #000;
 }
+
+amp-social-share[type="sms"] {
+    background-size: 18px; 
+}
