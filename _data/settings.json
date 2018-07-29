@@ -18,7 +18,7 @@
     },
     {
         "title": "linkedin",
-        "link": "https://www.linkedin.com/in/george-davis-c-0a042563/",
+        "link": "https://www.linkedin.com/in/georgedavisc/",
         "action": "pageVisit",
         "selector": "#linkedin",
         "request": "social",
