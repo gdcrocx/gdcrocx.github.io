@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <!-- AMP Initialization Settings -->
         <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
         <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
         <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
         <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>     
@@ -28,6 +29,8 @@
             {% include css/footer.css %}
             /* Site Layout and Responsiveness */
             {% include css/responsive.css %}
+            /* AMP Stories CSS */
+            {% include css/amp-stories.css %}
         </style>
         {% if page.meta %}<meta name="description" content="{{page.meta}}">{% endif %}
         <meta name="google-site-verification" content="CWDLFr406ro2_GNdRc0Hu5g6TJfAhXXd6TnNVwn6x8g" />

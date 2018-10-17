@@ -1,0 +1,51 @@
+amp-story {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI ", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji ", "Segoe UI Emoji ", "Segoe UI Symbol ";
+}
+amp-story-page * {
+    color: white;
+    text-align: center;
+}
+
+[template=thirds] {
+    padding: 0;
+}
+
+amp-story-page h1, amp-story-page h2 {
+    padding: 0.25rem;    
+}
+
+/* amp-story-page h3 {
+    font-family: 'The Painter';
+} */
+
+/* amp-story-page p {
+    font-family: 'Roboto';    
+} */
+
+.logo-layer {
+    /* align-content: end;    
+    justify-items: end; */
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.amp-story-details {
+    align-content: end;
+    background: linear-gradient(to bottom, transparent, black);
+    text-align: center;
+}
+
+.amp-gradient {
+    background: black;
+    opacity: 0.45;
+}
+
+.amp-grayscale {
+    /* filter: grayscale(100%); */
+    opacity: 0.55;
+}
