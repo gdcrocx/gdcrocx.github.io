@@ -1,5 +1,8 @@
 [
     {
+        "id": 1,
+        "amp-story-id": "page-1",
+        "amp-story-animation": "gl_57320cde-7aac-4d1f-8977-7ece0a771fd0.gif",
         "project-name": "**parkingApp**",
         "project-description": "The app was designed as a Proof of Concpet for an open, crowdsourced parking availability data collection and recommendation model. The app used GPS and 4G LTE Mobile Data to mark locations and store them on a Cloud Service. Parking App was submitted as a course study and project work for his Master's Degree in Computer Science specialized on Free and Open Source Software",
         "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
@@ -10,6 +13,9 @@
         "project-tools": "**Tools and Technology** - MVC framework, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
     },
     {
+        "id": 5,
+        "amp-story-id": "page-5",
+        "amp-story-animation": "FeatureSkipHursh001.gif",
         "project-name": "**Gladiator**",
         "project-description": "The app was developed as a prototype to a South African based truck service provider. The app design and development was done based on design specifications and was forked out of the Parking App base code. The app was not submitted to the Client due to change in plans at the Client's end.",
         "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
@@ -20,6 +26,9 @@
         "project-tools": "**Tools and Technology** - MVC framework, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
     },
     {
+        "id": 2,
+        "amp-story-id": "page-2",
+        "amp-story-animation": "blend_jrcanest.gif",
         "project-name": "**MemeWorld**",
         "project-description": "MemeWorld was a simple meme app with features to share, search and even create memes on the fly. The app intends to reduce the storage issues caused in consumer devices, requiring consumers to get bigger and better phones every few years. The goal was to have a platform for memes on the server level with layers of caching and CDNs",
         "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
@@ -30,6 +39,9 @@
         "project-tools": "**Tools and Technology** - MVC framework, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
     },
     {
+        "id": 6,
+        "amp-story-id": "page-6",
+        "amp-story-animation": "58c704f52db33b7017386cf8_Work_Small.gif",
         "project-name": "**CatchACoin**",
         "project-description": "The Cryptocurrency world is buzzing non-stop since 2008 and there are only few people who can keep tabs on this space at any given time. CatchACoin was developed to create a user assistant to keep track of user portfolio and show alerts on fast paced trends and warn declines for various crypto assests like Bitcoin, Ether, Ripple and so on",
         "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
@@ -40,6 +52,9 @@
         "project-tools": "**Tools and Technology** - MVC framework, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
     },
     {
+        "id": 3,
+        "amp-story-id": "page-3",
+        "amp-story-animation": "gl_57320ce0-8f80-4933-b0c5-07890a771fd0.gif",
         "project-name": "**MobiErgo**",
         "project-description": "An ergonomic solution to Mobile phone users, giving recommendation and alerts on the ergonomic factor in play on the neck of users. The app intends to use accelerometer and orientation to guess the position of the phone and provide alerts in terms of vibration and toast notifications.",
         "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
@@ -50,6 +65,9 @@
         "project-tools": "**Tools and Technology** - MVC framework, Apache Cordova, MariaDB, JavaScript frameworks and Node.Js modules"
     },
     {
+        "id": 4,
+        "amp-story-id": "page-4",
+        "amp-story-animation": "FeatureSkipHursh004.gif",
         "project-name": "**OneCard**",
         "project-description": "Create a prototype of a cryptocurrency card that links multiple cryptocurrency wallets to make transactions between different cryptos easy and effective in small and large value transactions.",
         "project-platform": "Cross Platform Mobile App (Android, iOS, Web), powered by Apache Cordova",
