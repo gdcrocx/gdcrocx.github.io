@@ -8,24 +8,42 @@ category: pages
 keywords: projects, work, multi-platform, professional, android, ios, developer, test, parkingApp, Gladiator, MemeWorld, CoinWatch, CatchACoin, MobiErgo, OneCard
 ---
 
-<div class="projects-carousel">
+<amp-story standalone title="Projects" publisher="Gdcrocx" publisher-logo-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg"
+    poster-portrait-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg" poster-square-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg"
+    poster-landscape-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg">
 
-    <amp-carousel width="100" height="50" layout="responsive" type="slides">
+    {% assign projectSorted = (site.data.my-projects | sort: 'id') %}
 
-        {% for project in site.data.my-projects %}
+    {% for project in projectSorted %}            
 
-            <center class="carousel-item"> <!-- class="project center" -->
-                {% if project.project-name %}<p>{{ project.project-name | markdownify }}</p>{% endif %}
-                {% if project.project-description %}<p><i>{{ project.project-description }}</i></p>{% endif %}
-                {% if project.project-platform %}<p><i>{{ project.project-platform | markdownify }}</i></p>{% endif %}
-                {% if project.project-purpose %}<p><i>{{ project.project-purpose | markdownify }}</i></p>{% endif %}
-                {% if project.project-inspiration %}<p><i>{{ project.project-inspiration | markdownify }}</i></p>{% endif %}
-                {% if project.project-benefit %}<p><i>{{ project.project-benefit | markdownify }}</i></p>{% endif %}
-                {% if project.project-referral-url %}<p><i>{{ project.project-referral-url | markdownify }}</i></p>{% endif %}
-            </center>
+        <amp-story-page id={{ project.amp-story-id }} auto-advance-after="5s">
+            <amp-story-grid-layer template="fill">
+                <amp-img src={{site.domainUrl}}{{site.baseUrl}}/img/{{ project.amp-story-animation }} class="amp-grayscale" width="720" height="1280" layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+            <!-- <amp-story-grid-layer template="fill" class="amp-gradient">
+                </amp-story-grid-layer> -->
+            <amp-story-grid-layer template="vertical"> 
+                <div animate-in="fly-in-bottom" animate-in-delay="0.5s">
+                    {% if project.project-name %}<h3>{{ project.project-name | markdownify | strip_html }}</h3>{% endif %}
+                    {% if project.project-description %}<p>{{ project.project-description }}</p>{% endif %}
+                    {% if project.project-platform %}<h4>{{ project.project-platform | markdownify | strip_html }}</h4>{% endif %}
+                </div>
+                <div animate-in="fly-in-bottom" animate-in-delay="1s">
+                    {% if project.project-purpose %}<p><i>{{ project.project-purpose | markdownify }}</i></p>{% endif %}
+                    <!-- {% if project.project-inspiration %}<p><i>{{ project.project-inspiration | markdownify }}</i></p>{% endif %} -->
+                    <!-- {% if project.project-benefit %}<p><i>{{ project.project-benefit | markdownify }}</i></p>{% endif %} -->
+                    <!-- {% if project.project-referral-url %}<p><i>{{ project.project-referral-url | markdownify }}</i></p>{% endif %} -->    
+                </div>            
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical">
+                <amp-img src={{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg  class="logo-layer" width="64" height="64" animate-in="fly-in-bottom" animate-in-delay="2s" layout="responsive"></amp-img>    
+            </amp-story-grid-layer>
+        </amp-story-page>
 
-        {% endfor %}
+    {% endfor %}    
 
-    </amp-carousel>
-
-</div>
+    <!-- A "bookend" panel containing links to other resources will appear on the last page of your story if you include an `amp-story-bookend` that references a [bookend JSON config](/json/bookend.json). -->
+    <!-- <amp-story-bookend src="{{site.domainUrl}}{{site.baseUrl}}/bookend.json" layout="nodisplay">
+    </amp-story-bookend> -->
+</amp-story>

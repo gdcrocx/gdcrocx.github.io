@@ -1,30 +1,45 @@
 ---
 layout: default
 title: "Testimonials"
-meta: Testimonials on George Davis at his work. These testimonies only represent the awards that George has got at Office and do not include the frequent appreciations and confidence that he earned. After you have been here, we trust you are confident that he is the guy you would go-to if you have a problem.
+meta: Testimonials on George Davis at his work. These testimonies only represent the awards that George has got at Office and do not include the requent appreciations and confidence that he earned. After you have been here, we trust you are confident that he is the guy you would go-to if you have a problem.
 priority: 1.0
 changefreq: monthly
 category: pages
 keywords: recognitions, awards, achievements, professional life, workplace perfection, agile, developer, test, DevOps, Cloud, ACE, Tech Mahindra, 1000 Leaders, Engineer
 ---
 
-<div class="testimony-carousel">
-    
-    <amp-carousel width="100" height="50" layout="responsive" type="slides">
+<amp-story standalone title="Testimonials" publisher="Gdcrocx" publisher-logo-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg"
+    poster-portrait-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg" poster-square-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg"
+    poster-landscape-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg">
 
-        {% for award in site.data.portfolio-testimonials %}
+    {% assign awardSorted = (site.data.portfolio-testimonials | sort: 'id') %}
 
-            <center class="carousel-item"> <!-- class="testimony" -->
-                {% if award.recognition %}<p>{{ award.recognition | markdownify }}</p>{% endif %}
-                {% if award.citation %}<p>{{ award.citation }}</p>{% endif %}
-                {% if award.jury %}<p>{{ award.jury }}</p>{% endif %}
-                {% if award.designation %}<p>{{ award.designation }}</p>{% endif %}
-                {% if award.workplace %}<p>{{ award.workplace }}</p>{% endif %}
-                {% if award.date %}<p>{{ award.date }}</p>{% endif %}
-            </center>
+    {% for award in awardSorted %}            
 
-        {% endfor %}
+        <amp-story-page id={{ award.amp-story-id }} auto-advance-after="5s">
+            <amp-story-grid-layer template="fill">
+                <amp-img src="{{site.domainUrl}}{{site.baseUrl}}/img/award.gif" width="720" height="1280" layout="responsive">
+                </amp-img>
+            </amp-story-grid-layer>
+            <amp-story-grid-layer template="fill" class="amp-gradient">
+                </amp-story-grid-layer>
+            <amp-story-grid-layer template="vertical"> 
+                <div animate-in="fly-in-bottom" animate-in-delay="0.5s">
+                    {% if award.recognition %}<h1>{{ award.recognition | markdownify | strip_html }}</h1>{% endif %}
+                    {% if award.date %}<h3>{{ award.date }}</h3>{% endif %}
+                    {% if award.workplace %}<h2>{{ award.workplace }}</h2>{% endif %}
+                </div>
+                <div animate-in="fly-in-bottom" animate-in-delay="1s">
+                    {% if award.citation %}<p>{{ award.citation }}</p>{% endif %}
+                    {% if award.jury %}<p>{{ award.jury }}</p>{% endif %}
+                    {% if award.designation %}<p>{{ award.designation }}</p>{% endif %}
+                </div>
+            </amp-story-grid-layer>
+        </amp-story-page>
 
-    </amp-carousel>
+    {% endfor %}    
 
-</div>
+    <!-- A "bookend" panel containing links to other resources will appear on the last page of your story if you include an `amp-story-bookend` that references a [bookend JSON config](/json/bookend.json). -->
+    <!-- <amp-story-bookend src="{{site.domainUrl}}{{site.baseUrl}}/bookend.json" layout="nodisplay">
+    </amp-story-bookend> -->
+</amp-story>
