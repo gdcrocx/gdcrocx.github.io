@@ -1,7 +1,7 @@
-[
+[    
     {
-        "id": 9,
-        "amp-story-id": "page-9",        
+        "id": 10,
+        "amp-story-id": "page-10",        
         "citation": "George is very much supportive, responsible and committed resource to take up the work. His role and responsibilities in GDW testing in GFR are is very crucial. He played a very critical role , very efficient team player with outstanding communication skills, handled calls without any escalations. He has handled several critical demands without any issues/escalations and keen observation skills which has improved the overall quality of GDW testing before the customer.",
         "recognition": "**Bravo**",
         "jury": "Namagiri Ramesh",
@@ -10,8 +10,8 @@
         "date": "FY 14/15 Q1"
     },
     {
-        "id": 8,
-        "amp-story-id": "page-8",
+        "id": 9,
+        "amp-story-id": "page-9",
         "citation": "The team is handling dynamic areas which is different from the OSS-BSS stack. Requiring expertise to cater to a varied set of technologies in domains like Finance, HR, SCM, BI, Fleet, Energy, and Security. Handling variuos forms of testing like - Enterprise testing, Device testing, Browser testing, Migration testing, Witness testing, Reconciliation testing, etc. The team has received a high CSAT score of 4.5. Appreciated by BT's exec leadership in form of 5+ e-cards in last 6 months. 5. Pankaj Kumar, was voted to be the Testing Manager of the year in the recently concluded TESTA awards in London. This year the team has 2 Blue Ribbon entries in the prestigious T10 Challenge Cup.",
         "recognition": "**Best Team Award**",
         "jury": "Namagiri Ramesh",
@@ -20,8 +20,8 @@
         "date": "FY 15/16 Q1"
     },
     {
-        "id": 7,
-        "amp-story-id": "page-7",
+        "id": 8,
+        "amp-story-id": "page-8",
         "citation": "George is very committed, hard working and provided excellent support to the ECloud project, both in development and testing. He could pick up any new language/technology with ease. Now he is providing excellent support to the new Cloud modernization project. All the very best, george and keep up the good work!",
         "recognition": "**Bravo**",
         "jury": "Ranganath Rajaiyengar",
@@ -30,8 +30,8 @@
         "date": "FY 15/16 Q4"
     },
     {
-        "id": 6,
-        "amp-story-id": "page-6",
+        "id": 7,
+        "amp-story-id": "page-7",
         "citation": "Tech Mahindra applauds you for consistently challenging yourself and performing brilliantly. Keep up the passion. We are proud of you!",
         "recognition": "**ACE Award**",
         "jury": "C P Gurnani, MD & CEO & ",
@@ -40,8 +40,8 @@
         "date": "May 2016"
     },
     {
-        "id": 5,
-        "amp-story-id": "page-5",
+        "id": 6,
+        "amp-story-id": "page-6",
         "citation": "Recognized as 'Emerging Leader' - an integrated Talent pipeline for Tech Mahindra across the globe. Was Organizer for the Chennai chapter.",
         "recognition": "**Emerging Leader**",
         "jury": "Tech Mahindra 1000 Leaders",
@@ -50,8 +50,8 @@
         "date": "April 2014"
     },
     {
-        "id": 4,
-        "amp-story-id": "page-4",
+        "id": 5,
+        "amp-story-id": "page-5",
         "citation": "Recognized as 'Star' and 'Excellent' Performer - 2015 & 2016",
         "recognition": "**Star and Excellent Performer**",
         "jury": "Product Delivery & Management",
@@ -60,8 +60,8 @@
         "date": "2015 & 2016"
     },
     {
-        "id": 3,
-        "amp-story-id": "page-3",
+        "id": 4,
+        "amp-story-id": "page-4",
         "citation": "For commitment to outstanding performance and demonstrating Core Values and going far above and beyond! in Quality/Process Improvement.",
         "recognition": "**Verizon Spotlight Award**",
         "jury": "",
@@ -70,8 +70,8 @@
         "date": "July 2017"
     },
     {
-        "id": 2,
-        "amp-story-id": "page-2",
+        "id": 3,
+        "amp-story-id": "page-3",
         "citation": "Congratulations on your 6th place finish (out of 223 teams) in the 2017 DevOps Cup! Your dedication to excelllence is helping lead the way for a better tomorrow in Verizon's DevOps Community! Thanks you for your tremenderous work during the Cup this year, and we look forward to your leadership and mentoring in the 2018 DevOps Cup!",
         "recognition": "**Verizon Spotlight Award**",
         "jury": "DevOps Cup 3.0 (2017)",
@@ -80,13 +80,23 @@
         "date": "December 2017"
     },
     {
-        "id": 1,
-        "amp-story-id": "page-1",
+        "id": 2,
+        "amp-story-id": "page-2",
         "citation": "Congratulations on placing 2nd place in the Velocity Flashbuild for the DevOps Cup! (2018)",
         "recognition": "**Verizon Spotlight Award**",
         "jury": "DevOps Cup 4.0 (2018)",
         "designation": "Senior Vice President and Global CIO at Verizon",
         "workplace": "Verizon Data Services India Pvt. Ltd.",
         "date": "July 2018"
-    }
+    },
+    {
+        "id": 1,
+        "amp-story-id": "page-1",        
+        "citation": "Congratulations for winning 1st place in the 2nd round of the DevOps Cup for the Best All Around. Keep up the great work and share your knowledge with peers to bring them to your level.",
+        "recognition": "**Verizon Spotlight Award**",
+        "jury": "Round 2 - DevOps Cup 4.0 (2018)",
+        "designation": "Senior Vice President and Global CIO at Verizon",
+        "workplace": "Verizon Data Services India Pvt. Ltd.",
+        "date": "November 2018"
+    },
 ]
