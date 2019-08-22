@@ -8,14 +8,6 @@
         "enabled": "true"
     },
     {
-        "title": "Google Plus",
-        "type": "gplus",
-        "endpoint": "",
-        "endpointPreconfigured": "true",
-        "data-param-url": "",        
-        "enabled": "true"
-    },
-    {
         "title": "Facebook",
         "type": "facebook",
         "endpoint": "",

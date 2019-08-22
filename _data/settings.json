@@ -1,12 +1,4 @@
-[
-    {
-        "title": "googleplus",
-        "link": "https://plus.google.com/+GeorgeDavisGdcrocx",
-        "action": "pageVisit",
-        "selector": "#googleplus",
-        "request": "social",
-        "trackingTrigger": "trackClickOnGooglePlusLink"
-    },    
+[  
     {
         "title": "facebook",
         "link": "https://www.facebook.com/GDCrocx" ,
