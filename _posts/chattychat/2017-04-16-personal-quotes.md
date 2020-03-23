@@ -1,12 +1,12 @@
 ---
-layout: blogarticle
+layout: "blogarticle"
 title: "Personal quotes"
 meta: "Some personal quotes about many things in general."
 author: "George Davis"
 source: "Personal writing"
 category: "chattychat"
 date: "April 16, 2017"
-status: published
+status: "published"
 ---
 
 <section>

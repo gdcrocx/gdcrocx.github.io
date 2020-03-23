@@ -1,3 +1,14 @@
+---
+layout: "blogarticle"
+title: "Personal quotes"
+meta: "Wireshark PCAP Analysis Notes"
+author: "George Davis"
+source: "Personal writing"
+category: "chattychat"
+date: "November 19, 2019"
+status: "published"
+---
+
 # Wireshark PCAP Analysis
 
 ### Find your IP address 

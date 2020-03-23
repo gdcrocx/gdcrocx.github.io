@@ -1,12 +1,12 @@
 ---
-layout: blogarticle
+layout: "blogarticle"
 title: "Different Cloud Vendors"
 meta: "See some popular cloud vendors here."
 author: "George Davis"
 source: "Personal writing"
 category: "cloudhaven"
 date: "April 14, 2017"
-status: published
+status: "published"
 ---
 
 <ol>

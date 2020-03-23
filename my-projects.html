@@ -12,7 +12,7 @@ keywords: projects, work, multi-platform, professional, android, ios, developer,
     poster-portrait-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg" poster-square-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg"
     poster-landscape-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg">
 
-    {% assign projectSorted = (site.data.my-projects | sort: 'id') %}
+    {% assign projectSorted = site.data.my-projects | sort: 'id' %}
 
     {% for project in projectSorted %}            
 
