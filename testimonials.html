@@ -12,7 +12,7 @@ keywords: recognitions, awards, achievements, professional life, workplace perfe
     poster-portrait-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg" poster-square-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg"
     poster-landscape-src="{{site.domainUrl}}{{site.baseUrl}}/img/Author-Self-Portrait.jpg">
 
-    {% assign awardSorted = (site.data.portfolio-testimonials | sort: 'id') %}
+    {% assign awardSorted = site.data.portfolio-testimonials | sort: 'id' %}
 
     {% for award in awardSorted %}            
 
