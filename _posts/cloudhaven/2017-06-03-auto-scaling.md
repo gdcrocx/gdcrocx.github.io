@@ -1,12 +1,12 @@
 ---
-layout: blogarticle
+layout: "blogarticle"
 title: "Auto-scaling on Cloud"
 meta: "To-do: Auto-scaling on Cloud based infrastructure (IaaS) and Platform based PaaS platforms."
 author: "George Davis"
 source: "Personal writing"
 category: "cloudhaven"
 date: "June 03, 2017"
-status: published
+status: "published"
 ---
 
 <!-- <h3>Auto-scaling</h3> -->

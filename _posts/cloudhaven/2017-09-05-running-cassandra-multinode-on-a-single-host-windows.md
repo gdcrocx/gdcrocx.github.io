@@ -1,12 +1,12 @@
 ---
-layout: blogarticle
+layout: "blogarticle"
 title: "Running Cassandra multi-node on a single host machine (Windows)"
 meta: "To-do: Upcoming article on AWS Managed services Vs Amazon EC2"
 author: "George Davis"
 source: "Personal writing"
 category: "cloudhaven"
 date: "December 31, 2017"
-status: draft
+status: "draft"
 ---
 
 In the Cloud where everyone checks upto efficiency, faster throughput and response times in milliseconds, a simple way to get started is to convert some of your relational SQL databases into NoSQL documents. NoSQL engines like Apache Cassandra and MongoDB fetch chunks of data within single digit milliseconds providing the faster response time which earlier to this, used to take a second.
